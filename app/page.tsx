@@ -3,7 +3,9 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
-
+import FeatureSection from '@/components/FeatureSection';
+import Advantages from '@/components/Advantages'
+import Customizable from '@/components/Customizable'
 const Home: NextPage = () => {
   return (
     <div>
@@ -15,6 +17,15 @@ const Home: NextPage = () => {
 
       <Header />
       <HeroSection />
+      <main className="min-h-screen bg-gray-100">
+        <FeatureSection />
+      </main>
+      <main className="flex flex-col items-center justify-center">
+        <Advantages />
+      </main>
+      <main className="flex flex-col items-center justify-center">
+        <Customizable />
+      </main>
     </div>
   );
 };
