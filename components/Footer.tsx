@@ -1,14 +1,26 @@
 import React from 'react';
-
+import Image from 'next/image';
+import f1 from "../images/Frame (3).png";
+import f2 from "../Images/Frame (4).png";
+import f3 from "../Images/Frame (5).png";
 const Footer = () => {
   return (
     <footer className="bg-white py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">uifry</h2>
-            <p className="mt-2">Help@Frybix.com</p>
-            <p className="mt-2">+1 234 456 678 89</p>
+          <div className="flex items-center mb-2">
+              <Image src={f1} alt="uifry logo" className="w-5 h-5 mr-2" />
+              <h2 className="text-2xl font-bold">uifry</h2>
+            </div>
+            <div className="flex items-center mb-2">
+              <Image src={f2} alt="Email icon" className="w-5 h-5 mr-2" />
+              <p>Help@Frybix.com</p>
+            </div>
+            <div className="flex items-center">
+              <Image src={f3} alt="Phone icon" className="w-5 h-5 mr-2" />
+              <p>+1 234 456 678 89</p>
+            </div>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-semibold">Links</h3>
@@ -35,9 +47,11 @@ const Footer = () => {
               <li>Reviews</li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-semibold">Newsletter</h3>
-            <p className="mt-2">Stay Upto Date</p>
+            <ul className="mt-2">
+              <li>Stay Upto Date</li>
+            </ul>
             <div className="mt-2 flex">
               <input
                 type="email"
@@ -49,6 +63,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
+
         </div>
         <div className="mt-8 text-center">
           <p>Copyright 2022 Uifry.com All Rights Reserved</p>

@@ -1,7 +1,6 @@
-// components/Testimonial.tsx
 
 import Image from 'next/image';
-import testimonialBg from '../Images/full.png'; // Ensure this matches the saved image name
+import testimonialBg from '../Images/full.png';
 import user1 from '../Images/user1.png';
 import user2 from '../Images/user2.png';
 import user3 from '../Images/user3.png';

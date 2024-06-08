@@ -1,7 +1,6 @@
-// components/Advantages.tsx
 
 import Image from 'next/image';
-import phoneImage from '../Images/P.png'; // Make sure to save the uploaded image in public folder as phone.png
+import phoneImage from '../Images/P.png'; 
 
 const Advantages = () => {
   return (
