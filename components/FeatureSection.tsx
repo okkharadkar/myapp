@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import pi from '../Images/Moc.png'; 
-import f1 from "../images/Frame (3).png"
+import f1 from "../Images/Frame (3).png"
 const FeatureSection: React.FC = () => {
   return (
     <section className="relative bg-gradient-to-r from-white via-red-100 to-yellow-100 py-16">
