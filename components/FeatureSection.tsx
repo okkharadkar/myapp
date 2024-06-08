@@ -1,15 +1,14 @@
 import React from 'react';
-
+import Image from 'next/image';
+import pi from '../Images/Moc.png'; 
 const FeatureSection: React.FC = () => {
   return (
     <section className="relative bg-gradient-to-r from-white via-red-100 to-yellow-100 py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center px-5">
         <div className="md:w-1/2">
-          <img
-            src="/images/mobile_mockup.png"
-            alt="Mobile Mockup"
-            className="mx-auto md:mx-0"
-          />
+        <div className="flex-1 mt-8 md:mt-0 md:ml-8">
+        <Image src={pi} alt="Phone showing app" className="max-w-full h-auto" />
+      </div>
         </div>
         <div className="md:w-1/2 md:pl-10 mt-10 md:mt-0">
           <h2 className="text-4xl font-bold text-gray-900 mb-5">Uifry Premium</h2>

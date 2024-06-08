@@ -6,6 +6,9 @@ import HeroSection from '../components/HeroSection';
 import FeatureSection from '@/components/FeatureSection';
 import Advantages from '@/components/Advantages'
 import Customizable from '@/components/Customizable'
+import Testimonial from '@/components/Testimonial'
+import FAQ from '@/components/FAQ'
+import Footer from '@/components/Footer';
 const Home: NextPage = () => {
   return (
     <div>
@@ -26,6 +29,14 @@ const Home: NextPage = () => {
       <main className="flex flex-col items-center justify-center">
         <Customizable />
       </main>
+      <main className="flex flex-col items-center justify-center">
+        <Testimonial />
+      </main>
+      <main className="container mx-auto p-4">
+        <FAQ />
+      </main>
+
+      <Footer />
     </div>
   );
 };
