@@ -1,9 +1,9 @@
 
 import Image from 'next/image';
-import complete from '../Images/complete.png';
-import user1 from '../Images/user1.png';
+import complete from '../Pictures/complete.png';
+import user1 from '../Pictures/user1.png';
 
-const Testimonial = () => {
+const Feature4 = () => {
   return (
     <div className="relative bg-white p-8">
       <div className="text-center mb-12">
@@ -38,4 +38,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Feature4;

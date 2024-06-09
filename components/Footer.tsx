@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import f1 from "../Images/Frame (3).png";
-import f2 from "../Images/Frame (4).png";
-import f3 from "../Images/Frame (5).png";
+import f1 from "../Pictures/Frame (3).png";
+import f2 from "../Pictures/Frame (4).png";
+import f3 from "../Pictures/Frame (5).png";
 const Footer = () => {
   return (
     <footer className="bg-white py-8">

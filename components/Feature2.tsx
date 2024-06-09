@@ -1,9 +1,9 @@
 
 
 import Image from 'next/image';
-import phoneImage from '../Images/p1.png';
+import phoneImage from '../Pictures/p1.png';
 
-const Customizable = () => {
+const Feature2 = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center bg-white p-8 relative overflow-hidden">
       <div className="flex-1 mt-8 md:mt-0 md:ml-8 z-10">
@@ -45,4 +45,4 @@ const Customizable = () => {
   );
 };
 
-export default Customizable;
+export default Feature2;

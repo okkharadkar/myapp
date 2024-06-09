@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import abc from '../Images/abc.png'
+import abc from '../Pictures/abc.png'
 const Nav = () => {
   return (
     <header className='grid grid-cols-9 gap-5 py-4 px-6 '>

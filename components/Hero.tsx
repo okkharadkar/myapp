@@ -1,8 +1,8 @@
 
 import Image from 'next/image';
-import phone from '../Images/phone.jpg'
-import two from '../Images/two.png'
-import one from '../Images/one.png'
+import phone from '../Pictures/phone.jpg'
+import two from '../Pictures/two.png'
+import one from '../Pictures/one.png'
 const Hero = () => {
   return (
     <section>

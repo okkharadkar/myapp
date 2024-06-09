@@ -1,8 +1,8 @@
 
 import Image from 'next/image';
-import phoneImage from '../Images/P.png'; 
+import phoneImage from '../Pictures/P.png'; 
 
-const Advantages = () => {
+const Featuere3 = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center bg-white p-8">
       <div className="flex-1">
@@ -44,4 +44,4 @@ const Advantages = () => {
   );
 };
 
-export default Advantages;
+export default Featuere3;

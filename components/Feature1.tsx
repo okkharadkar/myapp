@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import img1 from '../Images/Moc.png'; 
-import img2 from "../Images/cube-02.png"
-const FeatureSection: React.FC = () => {
+import img1 from '../Pictures/Moc.png'; 
+import img2 from "../Pictures/cube-02.png"
+const Feature1: React.FC = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center px-5">
@@ -32,4 +32,4 @@ const FeatureSection: React.FC = () => {
   );
 };
 
-export default FeatureSection;
+export default Feature1;
