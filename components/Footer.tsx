@@ -48,10 +48,6 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold">Newsletter</h3>
-            <ul className="mt-2">
-              <li>Stay Upto Date</li>
-            </ul>
             <div className="mt-2 flex">
               <input
                 type="email"

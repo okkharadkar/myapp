@@ -6,7 +6,6 @@ import phoneImage from '../Images/p1.png';
 const Customizable = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center bg-white p-8 relative overflow-hidden">
-      <div className="absolute -top-10 -left-40 w-96 h-96 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 rounded-full filter blur-3xl opacity-30"></div>
       <div className="flex-1 mt-8 md:mt-0 md:ml-8 z-10">
         <Image src={phoneImage} alt="Phone showing app" className="max-w-full h-auto" />
       </div>

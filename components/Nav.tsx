@@ -1,14 +1,13 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import hot from '../Images/Hot.png'
-import star from '../Images/S.png'
-const Header = () => {
+import abc from '../Images/abc.png'
+const Nav = () => {
   return (
     <header className='grid grid-cols-9 gap-5 py-4 px-6 '>
       <div className="container mx-auto flex justify-start items-center py-4 px-6 col-start-2 col-span-4">
         <div className="flex items-center space-x-2">
-          <Image src={hot} alt="Logo" width={30} height={30} className="rounded-md shadow-md" />
+          <Image src={abc} alt="Logo" width={30} height={30} className="rounded-md shadow-md" />
           <div className="text-2xl font-bold text-red-500 pr-8">uifry</div>
         </div>
         <nav className="space-x-6 flex justify-start">
@@ -30,4 +29,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Nav;

@@ -1,14 +1,14 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Header from '../components/Header';
-import HeroSection from '../components/HeroSection';
-import FeatureSection from '@/components/FeatureSection';
-import Advantages from '@/components/Advantages';
-import Customizable from '@/components/Customizable';
-import Testimonial from '@/components/Testimonial';
+import Nav  from '../components/Nav';
+import Hero from '../components/Hero';
+import Feature1 from '@/components/Feature1';
+import Feature3 from '@/components/Featuere3';
+import Feature2 from '@/components/Feature2';
+import Feature4 from '@/components/Feature4';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
-import Img from '@/components/Img';
+import Feature5 from '@/components/Feature5';
 
 const Home: NextPage = () => {
   return (
@@ -19,29 +19,29 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Nav />
       <main>
         <section className="hero">
-          <HeroSection />
+          <Hero/>
         </section>
         <section className=" py-16">
           <div className="container mx-auto px-4">
-            <FeatureSection />
+            <Feature1 />
           </div>
         </section>
         <section className="advantages py-16">
           <div className="container mx-auto px-4 flex flex-col items-center justify-center">
-            <Advantages />
+            <Feature3 />
           </div>
         </section>
         <section className="customizable py-16">
           <div className="container mx-auto px-4 flex flex-col items-center justify-center">
-            <Customizable />
+            <Feature2/>
           </div>
         </section>
         <section className="testimonials py-16">
           <div className="container mx-auto px-4 flex flex-col items-center justify-center">
-            <Testimonial />
+            <Feature4 />
           </div>
         </section>
         <section className="faq py-16">
@@ -50,10 +50,10 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className="image">
-          <Img />
+          <Feature5 />
         </section>
       </main>
-      <Footer />
+      < Footer/>
     </div>
   );
 };
